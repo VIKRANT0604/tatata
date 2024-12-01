@@ -1,5 +1,5 @@
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import get_lang, is_maintenance
+from GAYU.misc import SUDOERS
+from GAYU.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
