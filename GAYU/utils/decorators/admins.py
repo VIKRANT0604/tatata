@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from dotenv import load_dotenv
 
 load_dotenv()
-from SONALI import app
-from SONALI.misc import SUDOERS, db
-from SONALI.utils.database import (
+from GAYU import app
+from GAYU.misc import SUDOERS, db
+from GAYU.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
