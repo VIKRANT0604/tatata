@@ -31,7 +31,7 @@ async def brah2(_, msg):
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"➻ {message.from_user.mention}\n\n**๏ ɪɴᴠɪᴛɪɴɢ ɪɴ ᴠᴄ ᴛᴏ :**\n\n**➻ **"
+    text = f"🦚𝐑𝐚𝐝𝐡𝐞💓𝐑𝐚𝐝𝐡𝐞🦚➻ {message.from_user.mention}\n\n**𝗮𝗮𝗽𝗸𝗼 𝗩𝗖 𝗽𝗲 𝗶𝗻𝘃𝗶𝘁𝗲 𝗸𝗶𝘆𝗮 𝗷𝗮 𝗿𝗵𝗮 𝗵🙏❤️ :**\n\n**➻ **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:
@@ -49,7 +49,7 @@ async def brah3(app: app, message: Message):
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="๏ ᴊᴏɪɴ ᴠᴄ ๏", url=add_link)],
+                    [InlineKeyboardButton(text="๏ 𝗔𝗱𝗱 𝗠𝗲 ๏", url=add_link)],
                 ]
             ),
         )
