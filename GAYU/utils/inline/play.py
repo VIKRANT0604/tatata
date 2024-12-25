@@ -74,14 +74,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-      [
-            InlineKeyboardButton(
-                text="🦚𝐑𝐚𝐝𝐡𝐞🦚", url="https://t.me/New_Sanatani",
-            ),
-            InlineKeyboardButton(
-                text="🦚𝐑𝐚𝐝𝐡𝐞🦚", url="https://t.me/New_Sanatani",
-            )
-        ],
+      
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
         ]
 
@@ -97,14 +90,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
-        [
-            InlineKeyboardButton(
-                text="🦚𝐑𝐚𝐝𝐡𝐞🦚", url="https://t.me/New_Sanatani",
-            ),
-            InlineKeyboardButton(
-                text="🦚𝐑𝐚𝐝𝐡𝐞🦚", url="https://t.me/New_Sanatani",
-            )
-        ],
+        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
 
