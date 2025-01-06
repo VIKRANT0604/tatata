@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME","GayuRobot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
-MUST_JOIN  = "HEROKUBIN_01"
+MUST_JOIN  = "New_sanatani"
 # ---------------------------------------------------------
 
 # Get your mongo url from cloud.mongodb.com
