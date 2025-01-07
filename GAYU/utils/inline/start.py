@@ -26,14 +26,6 @@ def private_panel(_):
         ],
         
             
-        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
-        [
-                        InlineKeyboardButton(
-                            text="𝑶𝒘𝒏𝒆𝒓🥰", url=f"https://t.me/KINGxANAND"
-                        ),
-                        InlineKeyboardButton(
-                            text="𝑪𝒉𝒂𝒕😁", url=f"https://t.me/real_Joint_Family"
-                        ),
-                    ],
+        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],        
     ]
     return buttons
