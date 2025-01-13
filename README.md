@@ -1,10 +1,10 @@
 <h2 align="center">
-    「  𝐆𝐚𝐲𝐚𝐭𝐫𝐢 」</h2>
+    𝐌 𝐢 𝐭 𝐰 𝐚 </h2>
 
     
 ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs 
 
-[𝐆𝐚𝐲𝐚𝐭𝐫𝐢](https://t.me/GayuRobot)
+[𝐆𝐚𝐲𝐚𝐭𝐫𝐢](https://t.me/MitwaMusic_bot)
 
 <h3 align="center">
 <a href="https://github.com/BadshahAk"><img alt="Website" src="https://img.shields.io/badge/𝐆𝐚𝐲𝐚𝐭𝐫𝐢-red"></a>
@@ -77,7 +77,7 @@ sudo pip3 install -U pip
 curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
 ```
 ```console
-git clone https://github.com/BadshahAk/GayuMusic &&  cd GayuMusic
+git clone https://github.com/Mitwa-user/GayuMusic &&  cd GayuMusic
 ```
 ```console
 pip3 install -U -r requirements.txt
