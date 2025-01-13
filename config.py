@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME","A_GRobot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
-MUST_JOIN  = "New_sanatani"
+MUST_JOIN  = "creating_77"
 # ---------------------------------------------------------
 
 # Get your mongo url from cloud.mongodb.com
@@ -42,15 +42,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BadshahAk/GAYU-MUSIC",
+    "https://github.com/Mitwa-user/GAYU-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/New_Sanatani")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xzVHo_U1FeIzNzU9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/creating_77")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/creating_77")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -88,7 +88,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/w5jptl.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/dubj2q.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/9l9exl.jpg"
