@@ -30,7 +30,7 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     
     # Typing effect part
-    typing_message = await message.reply("<b>⚜️𝐌 𝐢 𝐭 𝐰 𝐚⚜️</b>")  # Initial message
+    typing_message = await message.reply("<b>⚜️PARINDA⚜️</b>")  # Initial message
     
     # Simulate typing
     typing_text = "<b>Starting...🥀</b>"
