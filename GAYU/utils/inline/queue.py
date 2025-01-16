@@ -73,7 +73,7 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝙒𝙤𝙧𝙙𝙮 𝙈𝙖𝙯𝙚 ᝰ.ᐟ 🪶", url=f"https://t.me/creating_77"
+                text="FRIENDS ZONE", url=f"https://t.me/FRIENDS_ZONE_CHATTING_GROUP"
             ),
             
         ],
