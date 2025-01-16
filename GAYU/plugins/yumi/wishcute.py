@@ -4,7 +4,7 @@ import random
 import requests
 from GAYU import app 
 
-SUPPORT_CHAT = "New_sanatani"
+SUPPORT_CHAT = "FRIENDS ZONE"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
