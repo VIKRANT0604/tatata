@@ -13,13 +13,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","KingOfHellLuci")
+OWNER_USERNAME = getenv("OWNER_USERNAME","CaLL_mE_ShiiV")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","Buggu_Music_Bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
-MUST_JOIN  = "FRIENDS_ZONE_CHATTING_GROUP"
+MUST_JOIN  = "A_m_11_Thoughts"
 # ---------------------------------------------------------
 
 # Get your mongo url from cloud.mongodb.com
@@ -42,15 +42,16 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Samhere8412/Buggu_Music_new",
+    "https://github.com/VIKRANT0604/tatata",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FRIENDS_ZONE_CHATTING_GROUP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIENDS_ZONE_CHATTING_GROUP")
+# Support and contact information - Provide your own support channels
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/A_m_11_Thoughts")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/prishus_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -88,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/fdbffdb39d20374823466.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-STATS_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-STREAM_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/307e9ae4672c7b09071de-d136b56f1438c3a225.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/06649d4d0bbf4285238ee.jpg"
 
 
 def time_to_seconds(time):
