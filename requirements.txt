@@ -27,6 +27,7 @@ tgcrypto
 gpytranslate
 MukeshAPI
 lexica-api
+gtts
 search_engine_parser
 googlesearch-python
 youtube-search-python
